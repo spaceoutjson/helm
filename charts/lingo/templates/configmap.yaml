@@ -7,3 +7,4 @@ metadata:
 data:
   CONCURRENCY: {{ .Values.concurrency | quote }}
   SCALE_DOWN_DELAY: {{ .Values.scaleDownDelay | quote }}
+  NAMESPACE: {{ .Values.namespace | quote }}
