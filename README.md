@@ -6,7 +6,7 @@ A collection of exquisitely crafted helm charts for LLMs:
 
 ## Enable Substratus Helm repo
 ```bash
-helm repo add substratusai https://substratusai.github.io/helm
+helm repo add llm4advcrm https://raw.githubusercontent.com/spaceoutjson/helm/master/
 helm repo update
 ```
 
