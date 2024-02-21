@@ -20,4 +20,16 @@ entries:
     urls:
     - https://github.com/spaceoutjson/helm/releases/download/lingo-0.1.8/lingo-0.1.8.tgz
     version: 0.1.8
-generated: "2024-02-21T07:41:55.593137699Z"
+  vllm:
+  - apiVersion: v2
+    appVersion: v0.3.1
+    created: "2024-02-21T11:32:30.896527809Z"
+    description: 'A Helm chart for deploying vLLM. vLLM is a fast and easy-to-use
+      library for LLM inference and serving. '
+    digest: 568d195b251b126a0cc29d78721f6905f7e49d79c107c3e2cfd5ee7c573d0e06
+    name: vllm
+    type: application
+    urls:
+    - https://github.com/spaceoutjson/helm/releases/download/vllm-0.3.1/vllm-0.3.1.tgz
+    version: 0.3.1
+generated: "2024-02-21T11:32:30.89653878Z"
