@@ -27,6 +27,4 @@ home: https://github.com/substratusai/lingo
 
 keywords: ["llm", "proxy", "autoscaler", "openai"]
 
-maintainers: # (optional)
-  - name: Sam Stoelinga
-    url: https://www.linkedin.com/in/samstoelinga/
+maintainers:

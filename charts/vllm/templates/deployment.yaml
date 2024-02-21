@@ -85,7 +85,7 @@ spec:
          - name: dshm
            emptyDir:
               medium: Memory
-         {{- if .Values.readManyPVC.enabled }}
+         {{- if .Values.readOnlyPVC.enabled }}
          - name: {{ include "vllm.readManyPVCName" . }}
            persistentVolumeClaim:
              claimName: {{ include "vllm.readManyPVCName" . }}

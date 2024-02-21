@@ -6,9 +6,12 @@ metadata:
   labels:
     {{- include "vllm.labels" . | nindent 4 }}
 spec:
+  {{- if .Values.readManyPVC.sourcePVC }}
   dataSource:
     name: {{ .Values.readManyPVC.sourcePVC }}
-    kind: PersistentVolumeClaim
+    kind: {{ .Values.readManyPVC.sourceKind }}
+    apiGroup: {{ .Values.readManyPVC.sourceAPIGroup }}
+  {{- end }}
   accessModes:
   {{ toYaml .Values.readManyPVC.accessModes | nindent 2 }}
   {{- if .Values.readManyPVC.storageClass }}

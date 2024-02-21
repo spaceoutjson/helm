@@ -6,17 +6,22 @@ quantization: "" # optional, choose awq or squeezellm
 dtype: "" # optional, only required to be set to half when using awq for quantization
 gpuMemoryUtilization: "" # Optional, default is 0.90
 
-# this only works on GKE today
+# this only works on GKE today, creates new PVC
 readManyPVC:
   enabled: false
-  # provide the name of the PVC that has the model
+  # provide the name of the source PVC that has the model
   sourcePVC: ""
+  sourceKind: PersistentVolumeClaim # VolumeSnapshot
+  sourceAPIGroup: "" # snapshot.storage.k8s.io
   accessModes:
   - ReadOnlyMany
   mountPath: /model
   size: 30Gi
   # storageClass needs to match the sourcePVC storageClass
   storageClass: ""
+
+readOnlyPVC:
+  enabled: false
 
 deploymentAnnotations: {}
 
