@@ -43,4 +43,15 @@ entries:
     urls:
     - https://github.com/spaceoutjson/helm/releases/download/vllm-0.3.0/vllm-0.3.0.tgz
     version: 0.3.0
-generated: "2024-02-24T00:32:14.688340533Z"
+  - apiVersion: v2
+    appVersion: v0.3.1
+    created: "2024-02-24T02:35:30.788175336Z"
+    description: 'A Helm chart for deploying vLLM. vLLM is a fast and easy-to-use
+      library for LLM inference and serving. '
+    digest: ba6f1d2afca1e1149857746cc769b803e897a7682d5c6bed6a5273ea739bfd7b
+    name: vllm
+    type: application
+    urls:
+    - https://github.com/spaceoutjson/helm/releases/download/vllm-0.2.0/vllm-0.2.0.tgz
+    version: 0.2.0
+generated: "2024-02-24T02:35:30.788208618Z"
