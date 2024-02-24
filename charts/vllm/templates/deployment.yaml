@@ -38,7 +38,7 @@ spec:
           - /bin/bash
           - -c
           - |
-            cp -r /model /cache || echo "No cache directory"
+            mkdir -p /root/.cache/huggingface/hub && cp -r /model /root/.cache/huggingface/hub || echo "No cache directory"
             entrypoint.sh
           ports:
             - name: http
