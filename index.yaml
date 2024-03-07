@@ -20,6 +20,18 @@ entries:
     urls:
     - https://github.com/spaceoutjson/helm/releases/download/lingo-0.1.8/lingo-0.1.8.tgz
     version: 0.1.8
+  stapi:
+  - apiVersion: v2
+    appVersion: v2.2.2-3
+    created: "2024-03-07T14:31:31.778960225Z"
+    description: 'A Helm chart for deploying STAPI, an OpenAI compatible Embedding
+      API using Sentence Transformers. '
+    digest: 3020a56fecaa0e2f399f8b0d4282b11d41bf5360ff468178894cde387eabe2ba
+    name: stapi
+    type: application
+    urls:
+    - https://github.com/spaceoutjson/helm/releases/download/stapi-0.1.2/stapi-0.1.2.tgz
+    version: 0.1.2
   vllm:
   - apiVersion: v2
     appVersion: v0.3.1
@@ -43,6 +55,17 @@ entries:
     urls:
     - https://github.com/spaceoutjson/helm/releases/download/vllm-0.3.0/vllm-0.3.0.tgz
     version: 0.3.0
+  - apiVersion: v2
+    appVersion: v0.3.3
+    created: "2024-03-07T14:31:31.955767555Z"
+    description: 'A Helm chart for deploying vLLM. vLLM is a fast and easy-to-use
+      library for LLM inference and serving. '
+    digest: 956b3d0fbf341a89ea7b03b524f4bf6539ab7846ebb7086d7a08af009d49c4c8
+    name: vllm
+    type: application
+    urls:
+    - https://github.com/spaceoutjson/helm/releases/download/vllm-0.2.3/vllm-0.2.3.tgz
+    version: 0.2.3
   - apiVersion: v2
     appVersion: v0.3.1
     created: "2024-02-24T03:40:05.772165974Z"
@@ -76,4 +99,4 @@ entries:
     urls:
     - https://github.com/spaceoutjson/helm/releases/download/vllm-0.2.0/vllm-0.2.0.tgz
     version: 0.2.0
-generated: "2024-02-24T03:40:05.77219617Z"
+generated: "2024-03-07T14:31:31.955810455Z"
